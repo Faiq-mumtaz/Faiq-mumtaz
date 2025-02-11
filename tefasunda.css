@@ -1,0 +1,99 @@
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-image: url(kikis-delivery-service-wind.gif);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    justify-content: left;
+    height: 100vh;
+   
+}
+.nav {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        text-align: left;
+        font-size: 18px;
+        display: flex;
+
+    
+}
+.nav ul {
+    gap: 2rem;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.hello{
+    transform: translateY(10rem);
+    font-size: 75px;
+}
+.bawah{
+    transform: translateY(10rem);
+    }
+
+
+    
+    .profile header {
+        text-align: center;
+    }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    text-align: justify;
+}
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.section img {
+    width: 50%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 8px;
+}
+.section .text {
+    width: 45%;
+    margin: 0 15px;
+}
+.section h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}

@@ -1,0 +1,208 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke
+}
+
+
+h2,
+h3 {
+    color: #3c636b;
+}
+
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav a:hover {
+    font-weight: bold;
+}
+
+
+.profile header {
+    text-align: center;
+}
+
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.profile img {
+    width: 200px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-image: url(kikis-delivery-service-wind.gif);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    justify-content: left;
+    height: 100vh;
+   
+}
+.bawah{
+transform: translateY(10rem);
+}
+
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+
+
+
+
+    gap: 2rem;
+}
+
+
+nav li {
+    list-style-type: none;
+}
+
+
+.alif {
+    font-size: 20px;
+}
+
+
+.kata2 {
+    font-size: 7px
+}
+
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+   
+    position: sticky;
+    top: 0;
+}
+main {
+    padding: 20px;
+   
+    display: flex;
+    gap: 1.5rem;
+}
+#contect {
+flex:5;
+display: flex;
+flex-flow: column nowrap;
+gap: 1rem 2rem;
+}
+aside {
+    flex: 1;
+}
+header {
+    display: inline;
+}
+
+.hai{
+    transform: translateY(10rem);
+    font-size: 75px;
+}
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.card3 {
+    font-size: 45px;
+}
+.gunting{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+   
+}
+.kertas{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+.batu{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+.semut{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+}
+.sertif1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+}
+
+.sertif2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+}
+
+
+
+
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+ 
+
+
+  button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
