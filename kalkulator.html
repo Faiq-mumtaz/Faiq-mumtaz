@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator </title>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Kalkulator</h1>
+        <input type="text" id="display" disabled>
+        
+        <div class="buttons">
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="appendNumber('0')">0</button>
+            <button onclick="appendNumber('-')">-</button>
+            <button onclick="appendNumber('*')">*</button>
+            <button onclick="appendNumber('+')">+</button>
+            <button onclick="appendNumber('.')">.</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendNumber('/')">/</button>
+            <button onclick="clearDisplay()">C</button>
+        </div>
+        
+        <div class="operations">
+            <button onclick="calculate('exponentiation')">x^y</button>
+            <button onclick="calculate('sine')">sin</button>
+            <button onclick="calculate('cosine')">cos</button>
+            <button onclick="calculate('tangent')">tan</button>
+            <button onclick="calculate('logaritma')">log</button>
+        </div>
+        
+        <p id="result">Result: </p>
+    </div>
+</body>
+</html>
+    <script src="kalkulator.js"></script>
+</body>
+</html>
